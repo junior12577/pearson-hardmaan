@@ -284,4 +284,43 @@ i {
     font-weight: bold;
     margin-bottom: 1rem;
 }
-.author
+
+.employees img{
+    width: 400px;
+    height: 400px;
+}
+
+.employees{
+    justify-content: center;
+    gap: 2rem;
+    display: flex;
+}
+
+.employees .employee-name{
+    color: var(--main-color);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+#team .title-team{
+    gap: 0.5rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+#team .cor-title{
+    gap: 1rem;
+    color: var(--main-color);
+}
+.employee {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
